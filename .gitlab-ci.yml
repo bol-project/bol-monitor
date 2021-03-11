@@ -45,6 +45,8 @@ deploy:
   before_script:
     - echo -n $KUBE_CONFIG | base64 -d > `pwd`/kube-config
     - export KUBECONFIG=`pwd`/kube-config
+    - echo $KUBECONFIG
+    - cat $KUBECONFIG
   script:
     - IMAGE_TAG=$IMAGE_TAG.$CI_COMMIT_SHA
     - echo IMAGE_TAG=$IMAGE_TAG
