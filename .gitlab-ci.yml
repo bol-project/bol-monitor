@@ -29,7 +29,7 @@ build:
     - build-internal
 
 deploy:
-  image: lachlanevenson/k8s-kubectl:latest
+  image: lachlanevenson/k8s-kubectl:v1.16.14
   environment:
     name: bol-demo
     url: https://monitor.demo.bolchain.net
