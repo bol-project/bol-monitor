@@ -3,106 +3,43 @@
   "pollTime": "10000",
   "sites": [
     {
-      "service": "neoScan",
-      "url": "https://neoscan-testnet.io/api/test_net/v1/",
-      "location": "United States",
-      "locale": "us",
-      "type": "REST"
-    },
-    {
       "protocol": "http",
-      "url": "seed1.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
+      "url": "bol-validator-1",
+      "location": "Greece",
+      "port": "10332",
+      "locale": "gr",
       "type": "RPC"
     },
     {
       "protocol": "http",
-      "url": "seed2.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
+      "url": "bol-validator-2",
+      "location": "Greece",
+      "port": "10332",
+      "locale": "gr",
       "type": "RPC"
     },
     {
       "protocol": "http",
-      "url": "seed3.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
+      "url": "bol-validator-3",
+      "location": "Greece",
+      "port": "10332",
+      "locale": "gr",
       "type": "RPC"
     },
     {
       "protocol": "http",
-      "url": "seed4.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed5.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed6.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed7.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed8.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed9.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
-      "type": "RPC"
-    },
-    {
-      "protocol": "http",
-      "url": "seed10.ngd.network",
-      "location": "China",
-      "locale": "cn",
-      "port": "20332",
+      "url": "bol-validator-4",
+      "location": "Greece",
+      "port": "10332",
+      "locale": "gr",
       "type": "RPC"
     },
     {
       "protocol": "https",
-      "url": "testnet1.neo2.coz.io",
-      "location": "United States",
-      "locale": "us",
+      "url": "rpc.bolchain.net",
+      "location": "Greece",
       "port": "443",
-      "type": "RPC"
-    },
-    {
-      "protocol": "https",
-      "url": "testnet2.neo2.coz.io",
-      "location": "United States",
-      "locale": "us",
-      "port": "443",
+      "locale": "gr",
       "type": "RPC"
     }
   ]
