@@ -1,5 +1,4 @@
 mkdir -p dist
-rm -r dist/* || true # Ignore error if files don't exist
 npm run build-css
 cp mainnet.json testnet.json dist
 cp -r src/assets/icons dist/icons
