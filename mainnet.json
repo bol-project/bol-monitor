@@ -3,34 +3,34 @@
   "pollTime": "5000",
   "sites": [
     {
-      "protocol": "http",
-      "url": "bol-validator-1",
+      "protocol": "https",
+      "url": "validator-1.demo.bolchain.net",
       "location": "Greece",
-      "port": "10332",
+      "port": "443",
       "locale": "gr",
       "type": "RPC"
     },
     {
-      "protocol": "http",
-      "url": "bol-validator-2",
+      "protocol": "https",
+      "url": "validator-2.demo.bolchain.net",
       "location": "Greece",
-      "port": "10332",
+      "port": "443",
       "locale": "gr",
       "type": "RPC"
     },
     {
-      "protocol": "http",
-      "url": "bol-validator-3",
+      "protocol": "https",
+      "url": "validator-3.demo.bolchain.net",
       "location": "Greece",
-      "port": "10332",
+      "port": "443",
       "locale": "gr",
       "type": "RPC"
     },
     {
-      "protocol": "http",
-      "url": "bol-validator-4",
+      "protocol": "https",
+      "url": "validator-4.demo.bolchain.net",
       "location": "Greece",
-      "port": "10332",
+      "port": "443",
       "locale": "gr",
       "type": "RPC"
     },
