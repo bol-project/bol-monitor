@@ -10,11 +10,6 @@
         $location,
         angularClient
     ) {
-
-        if ($location.protocol() === 'https') {
-            $window.location = 'http://monitor.cityofzion.io/';
-        }
-
         neo.registry.registerProtocolClient(angularClient);
     }
 
