@@ -1,8 +1,8 @@
 ## build environment
 FROM node:14 as builder
 #COPY neo-mon/package*.json ./neo-mon/
-COPY  neo-mon/. ./neo-mon/
-WORKDIR ./neo-mon/
+COPY  . /neo-mon
+WORKDIR /neo-mon/
 RUN npm install 
 RUN chmod +x build.sh
 RUN ./build.sh
