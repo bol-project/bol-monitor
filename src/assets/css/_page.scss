@@ -31,9 +31,10 @@
   width: 100%;
   position: absolute;
   padding: 5px;
-  height: 325px;
+  height: 100%;
   border: none;
-  background: url(//b.thumbs.redditmedia.com/IVI-byTKzUtC1dKoF3os9IuQw7z46k8cjOyIjDBN_4I.png)  no-repeat;
+  background: url(//explorer.demo.bolchain.net/static/media/dots.b81dabc0.png)  ;
+  background-size: contain;
   z-index: -1;
 }
 
@@ -45,7 +46,8 @@
   &:before {
     position: relative;
     content: " ";
-    background: url(//b.thumbs.redditmedia.com/nMdp76v-WSSKg6190ViKx_k_bNK-PujuvpGkixwkoYw.png) -77px 0;
+    background: url(//explorer.demo.bolchain.net/static/media/bol_logo.fea61311.png) no-repeat;
+    background-size: contain;
     vertical-align: middle;
     display: inline-block;
     visibility: visible;
@@ -84,7 +86,7 @@
   line-height: 20px;
   letter-spacing: 1px;
   font-weight: 400;
-  color: #7EA63B;
+  color: #14C1F3;
   margin-top: 9px;
   margin-left: 5px;
   margin-right: 5px;
@@ -105,7 +107,7 @@
   line-height: 20px;
   letter-spacing: 1px;
   font-weight: 400;
-  color: #7EA63B;
+  color: #14C1F3;
 
   background-color: #163151;
   border-radius: 0;
@@ -119,7 +121,7 @@
   clear: both;
   font-weight: 300;
   line-height: 1.4;
-  color: #7EA63B;
+  color: #14C1F3;
   white-space: nowrap;
   text-align: right;
 }
@@ -143,7 +145,7 @@
   line-height: 20px;
   letter-spacing: 1px;
   font-weight: 400;
-  color: #7EA63B;
+  color: #14C1F3;
   margin-right: 40px;
   min-width: 120px;
 }
