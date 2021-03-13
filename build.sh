@@ -2,6 +2,7 @@ mkdir -p dist
 npm run build-css
 cp mainnet.json testnet.json dist
 cp -r src/assets/icons dist/icons
+cp favicon.ico dist
 cd src
 cp index.html ../dist/
 cd app
