@@ -21,7 +21,7 @@
   flex-direction: column;
   flex-grow: 1;
   overflow: auto;
-  position: relative;
+  position: inherit;
   z-index: z(main);
   height: 100%;
 }
