@@ -167,7 +167,7 @@
                         if (bestBlock > netStats.bestBlock) {
 
                             netStats.bestBlock = bestBlock;
-                            window.document.title = 'NEO #' + bestBlock.toLocaleString();
+                            window.document.title = 'BOL #' + bestBlock.toLocaleString();
 
                             if (!netStats.firstInterval) {
                                 var newTime = moment();
