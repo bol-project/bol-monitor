@@ -36,7 +36,7 @@
     },
     {
       "protocol": "https",
-      "url": "rpc.bolchain.net",
+      "url": "rpc.demo.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
