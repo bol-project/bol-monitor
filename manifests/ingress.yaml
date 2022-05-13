@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: __CI_BUILD_REF_SLUG__-monitor
@@ -19,7 +19,10 @@ spec:
   - host: monitor.__CI_ENV_SLUG__.bolchain.net
     http:
       paths:
-      - path: /
+      - pathType: Prefix
+        path: /
         backend:
-          serviceName: __CI_BUILD_REF_SLUG__-monitor
-          servicePort: 80
+          service:
+            name: __CI_BUILD_REF_SLUG__-monitor
+            port:
+              number: 80
