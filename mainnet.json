@@ -36,6 +36,54 @@
     },
     {
       "protocol": "https",
+      "url": "validator-5.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "validator-6.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "validator-7.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "validator-8.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "validator-9.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "validator-10.demo.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
       "url": "rpcnode.demo.bolchain.net",
       "location": "Greece",
       "port": "443",
