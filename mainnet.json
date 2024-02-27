@@ -4,7 +4,7 @@
   "sites": [
     {
       "protocol": "https",
-      "url": "validator-1.demo.bolchain.net",
+      "url": "validator-1.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -12,7 +12,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-2.demo.bolchain.net",
+      "url": "validator-2.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -20,7 +20,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-3.demo.bolchain.net",
+      "url": "validator-3.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -28,7 +28,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-4.demo.bolchain.net",
+      "url": "validator-4.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -36,7 +36,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-5.demo.bolchain.net",
+      "url": "validator-5.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -44,7 +44,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-6.demo.bolchain.net",
+      "url": "validator-6.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -52,7 +52,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-7.demo.bolchain.net",
+      "url": "validator-7.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -60,7 +60,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-8.demo.bolchain.net",
+      "url": "validator-8.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -68,7 +68,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-9.demo.bolchain.net",
+      "url": "validator-9.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -76,7 +76,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-10.demo.bolchain.net",
+      "url": "validator-10.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -84,7 +84,7 @@
     },
     {
       "protocol": "https",
-      "url": "rpcnode.demo.bolchain.net",
+      "url": "rpcnode.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",

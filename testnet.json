@@ -4,7 +4,7 @@
   "sites": [
     {
       "protocol": "https",
-      "url": "validator-1.demo.bolchain.net",
+      "url": "validator-1.testnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -12,7 +12,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-2.demo.bolchain.net",
+      "url": "validator-2.testnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -20,7 +20,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-3.demo.bolchain.net",
+      "url": "validator-3.testnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -28,7 +28,7 @@
     },
     {
       "protocol": "https",
-      "url": "validator-4.demo.bolchain.net",
+      "url": "validator-4.testnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
@@ -36,7 +36,7 @@
     },
     {
       "protocol": "https",
-      "url": "rpc.bolchain.net",
+      "url": "rpcnode.testnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",

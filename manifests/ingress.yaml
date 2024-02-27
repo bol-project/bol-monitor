@@ -7,10 +7,10 @@ metadata:
     app: __CI_BUILD_REF_SLUG__-monitor
   annotations:
     kubernetes.io/tls-acme: "true"
-    kubernetes.io/ingress.class: "nginx"
     nginx.ingress.kubernetes.io/rewrite-target: /
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
+  ingressClassName: nginx
   tls:
   - hosts:
     - monitor.__CI_ENV_SLUG__.bolchain.net

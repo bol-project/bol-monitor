@@ -1,13 +1,9 @@
-services:
-  - docker:18.09-dind
-
 stages:
   - build
   - deploy
 
 variables:
-  DOCKER_HOST: tcp://localhost:2375
-  DOCKER_DRIVER: overlay2
+  DOCKER_HOST: tcp://docker-dind.docker:2375
   IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
 
 build:
@@ -31,12 +27,12 @@ build:
 deploy:
   image: lachlanevenson/k8s-kubectl:latest
   environment:
-    name: bol-demo
-    url: https://monitor.demo.bolchain.net
+    name: mainnet
+    url: https://monitor.mainnet.bolchain.net
   tags:
-    - deploy-internal
+    - deploy-mainnet
   variables:
-    ENV_SLUG: demo
+    ENV_SLUG: mainnet
   only:
     - master
     - develop
