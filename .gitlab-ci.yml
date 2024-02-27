@@ -8,6 +8,7 @@ variables:
 
 build:
   stage: build
+  image: docker:latest
   only:
     - develop
     - master
