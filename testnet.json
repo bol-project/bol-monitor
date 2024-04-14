@@ -1,6 +1,6 @@
 {
   "name": "TestNet",
-  "pollTime": "10000",
+  "pollTime": "15000",
   "sites": [
     {
       "protocol": "https",
