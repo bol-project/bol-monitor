@@ -153,8 +153,9 @@
             netStats.endPoints.forEach(function (endPoint) {
 
                 if (endPoint.type === 'RPC') {
-                    endPoint.httpService.poll(netStats.pollingPolicy).getBlockCount().notify(function (result) {
-                        endPoint.lastBlock = result;
+                    endPoint.httpService.poll(netStats.pollingPolicy).getStateHeight().notify(function (result) {
+                        endPoint.lastBlock = result.blockheight;
+                        endPoint.stateHeight = result.stateheight;
                         endPoint.isItUp = true;
 
                         var bestBlock = netStats.bestBlock;

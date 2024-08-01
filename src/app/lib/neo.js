@@ -834,6 +834,7 @@ function node(options) {
     inst.sendToAddress = sendToAddress;
     inst.sendMany = sendMany;
     inst.validateAddress = validateAddress;
+    inst.getStateHeight = getStateHeight;
 
 
     return inst;
@@ -978,6 +979,10 @@ function  sendMany(outputsArray, fee, changeAddress) {
 //http://docs.neo.org/en-us/node/api/validateaddress.html
 function  validateAddress(address) {
     return this.$post('validateaddress', [address]);
+}
+
+function getStateHeight () {
+  return this.$post('getstateheight', []);
 }
 
 var bind = function bind(fn, thisArg) {

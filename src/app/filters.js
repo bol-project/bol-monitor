@@ -26,6 +26,9 @@
                     else if (best - endPoint.lastBlock <= 1000) {
                         return 'color-warning';
                     }
+                    else if (best - endPoint.stateHeight <= 1000) {
+                        return 'color-warning';
+                    }
 
                     return 'color-orange';
                 }
