@@ -160,7 +160,7 @@
 
                         var bestBlock = netStats.bestBlock;
 
-                        bestBlock = Math.max(bestBlock, result);
+                        bestBlock = Math.max(bestBlock, result.blockheight);
 
                         endPoint.latency = endPoint.httpService.latency();
                         endPoint.hasConnectedBefore = true;
