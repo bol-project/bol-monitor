@@ -60,7 +60,23 @@
     },
     {
       "protocol": "https",
-      "url": "rpcnode.mainnet.bolchain.net",
+      "url": "rpc-1.mainnet.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "rpc-2.mainnet.bolchain.net",
+      "location": "Greece",
+      "port": "443",
+      "locale": "gr",
+      "type": "RPC"
+    },
+    {
+      "protocol": "https",
+      "url": "rpc-3.mainnet.bolchain.net",
       "location": "Greece",
       "port": "443",
       "locale": "gr",
